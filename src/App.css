@@ -1,0 +1,23 @@
+.App {
+  margin-top: 0;
+  margin-left: 0;
+  background: rgb(214, 0, 0);
+  height: 100vh;
+  width: 100vw;
+}
+
+.flexCent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexCentCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 90%;
+  width: 90%;
+}

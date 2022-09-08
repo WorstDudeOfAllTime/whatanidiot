@@ -1,0 +1,21 @@
+.pictureDisplay {
+  height: 65%;
+  width: 100%;
+  background-image: url("./../../src/img/kb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+.pictureDisplay h1 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 3px black;
+  margin-top: 100px;
+  font-size: 50px;
+}
+@media only screen and (max-width: 700px) {
+  .pictureDisplay {
+    height: 50%;
+  }
+}
